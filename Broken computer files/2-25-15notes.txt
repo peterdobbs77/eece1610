@@ -1,0 +1,42 @@
+String class
+	String s;
+	s = new String("hello");
+	etc...
+
+	String - reference and object
+
+StringBuffer class
+	almost a string
+		sb = "hello";	//illegal
+		sb = new StringBuffer("hello");
+		
+		sb.append("bye");	//hellobye
+		concatenation modifies the original object
+		s = s + "bye"		//hellobye
+		concatenation creates a new object with the concatenated string
+	makes operations a lot easier than in String
+
+Math class
+	abs()		absolute value
+	
+	ceil(double x)	smallest whole number >= x
+	
+	floor(double x)	largest whole number <= x
+	round(double x)	x rounded up to long
+
+Random class
+	constructors: (when you call methods from this class, you don't have to give it a seed)
+		public Random()
+			uses time of day as seed
+		public Random(long s)
+			uses s as seed
+	public boolean nextBoolean()
+	public double nextDouble()
+	public float nextFloat()
+	public int nextInt()
+	public int nextInt(int n)
+	public long nextLong()
+	public void setSeed(long s)
+
+
+

@@ -1,0 +1,31 @@
+class feb252015
+{
+	public static void main(String[] args)
+	{
+		char grade = getGrade(81);
+		char average = getGrade(95, 75);
+		System.out.println(a + "gets the grade" +grade);
+		
+	}
+	//-----------------------------------
+	public static char getGrade(int x)
+	{
+		char 'A';
+		char 'B';
+		char 'C';
+		char 'D';
+		char 'F';
+		if (x>90) return A;
+		else if (x>80) return B;
+		else if (x>70) return C;
+		else if (x>65) return D;
+		else if (x>0) return F;
+	}
+	//-------------------------------------
+	public static char getGrade(int x, int y)
+	{
+		int z = (x+y)/2;
+		average = getGrade(z);
+		return average;
+	}
+}

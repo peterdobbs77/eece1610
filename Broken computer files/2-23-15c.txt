@@ -1,0 +1,19 @@
+class feb232015c
+{
+	public static void main(String[] args)
+	{
+		int b = 110;
+		int i;
+		for (i=1; i<=b; i++)
+		{
+			if (i%1==0) System.out.print(i);
+			else continue;
+			if (i%3==0) System.out.print("3m");
+			else System.out.println();
+			if (i%5==0) System.out.print("5m");
+			else System.out.println();
+			if (i%7==0) System.out.print("7m");
+			else System.out.println();
+		}
+	}
+}

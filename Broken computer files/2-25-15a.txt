@@ -1,0 +1,12 @@
+notes:
+
+c = 1, u = 110
+(c<=u)
+	if (c%3==0) System.out.println(3m); //=c3
+	if (c%5==0) System.out.println(5m); //=c5
+	if (c%7==0) System.out.println(7m); //=c7
+	print(/n);
+
+	if (c3&&c5&&c7)
+		3m5m7m
+	else if (!c3&&c5&&c7)
